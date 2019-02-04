@@ -18,6 +18,10 @@ ERROR in handler.js from Terser
 Unexpected token: punc (;) [./node_modules/technicalindicators/lib/volume/VWAP.js:44,0][handler.js:56739,4]
 ```
 
+## Another reason!
+
+There is a problem when running in Lambda if patterndetection is enabled, so I commented the lines where patterndetection is used. I'm not using patterndetection anyway.
+
 [![Travis CI](https://img.shields.io/travis/anandanand84/technicalindicators.svg?style=flat-square)](https://travis-ci.org/anandanand84/technicalindicators)
 
 # TechnicalIndicators
