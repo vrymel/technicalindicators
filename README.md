@@ -1,3 +1,23 @@
+# WHY THIS IS FORKED!
+
+There is an error when deploying to AWS Lambda using the serverless framework. I modified the following files found in the errors below.
+
+These errors are from the bundler when using `sls deploy`.
+
+```
+ERROR in handler.js from Terser
+Unexpected token: punc (;) [./node_modules/technicalindicators/lib/directionalmovement/ADX.js:86,0][handler.js:56586,4]
+
+ERROR in handler.js from Terser
+Unexpected token: punc (;) [./node_modules/technicalindicators/lib/volume/ForceIndex.js:43,0][handler.js:56531,4]
+
+ERROR in handler.js from Terser
+Unexpected token: punc (;) [./node_modules/technicalindicators/lib/oscillators/CCI.js:59,0][handler.js:56610,4]
+
+ERROR in handler.js from Terser
+Unexpected token: punc (;) [./node_modules/technicalindicators/lib/volume/VWAP.js:44,0][handler.js:56739,4]
+```
+
 [![Travis CI](https://img.shields.io/travis/anandanand84/technicalindicators.svg?style=flat-square)](https://travis-ci.org/anandanand84/technicalindicators)
 
 # TechnicalIndicators
