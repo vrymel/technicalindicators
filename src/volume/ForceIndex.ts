@@ -46,7 +46,7 @@ export class ForceIndex extends Indicator {
         this.result.push(result.value);
       }
     });
-  };
+  }
 
   static calculate = forceindex;
 

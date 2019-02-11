@@ -68,7 +68,7 @@ export class CCI extends Indicator {
         this.result.push(result.value);
       }
     });
-  };
+  }
 
   static calculate = cci;
 

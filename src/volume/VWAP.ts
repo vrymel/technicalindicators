@@ -52,7 +52,7 @@ export class VWAP extends Indicator {
         this.result.push(result.value);
       }
     });
-  };
+  }
 
   static calculate = vwap;
 

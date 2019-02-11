@@ -102,7 +102,7 @@ ADXOutput
         this.result.push({ adx : format(result.value.adx), pdi : format(result.value.pdi), mdi : format(result.value.mdi) });
       }
     });
-  };
+  }
 
   static calculate = adx;
 
